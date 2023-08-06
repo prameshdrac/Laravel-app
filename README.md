@@ -22,8 +22,8 @@ This docker file is to pre run or install the requirements applications or depen
 
 # Docker Commands:
 
-docker compose up -d : to run the compose file and make the listed services run as the container
-docker ps : to check the current live/running containers , it shows image id, ports map, container Id, container name
-docker compose down: to stop and remove the running containners
-docker stop/start <containerID> : to stop the specific container 
+1. docker compose up -d : to run the compose file and make the listed services run as the container
+2. docker ps : to check the current live/running containers , it shows image id, ports map, container Id, container name
+3. docker compose down: to stop and remove the running containners
+4. docker stop/start <containerID> : to stop the specific container 
 
